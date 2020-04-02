@@ -18,7 +18,7 @@ include("connection.php");
 	<div class="row" style="box-shadow: 5px 5px 14px;padding: 9px;background: white;">
 		<div class="col-md-12 text-center">
 			<h3>Government Polytechnic College Sanawad</h3>
-			<h5></h5>
+			<h5>Exam Hall Allotment System</h5>
 		</div>
 		<div class="col-md-4" style="margin-top: 20px;">
 			<a  href="admin_deshboard.php" class="logoutbtn"  style="width:auto;">Back</a>
