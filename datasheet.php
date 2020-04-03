@@ -7,7 +7,7 @@
 						$ext = pathinfo($_FILES['uploadFile']['name'], PATHINFO_EXTENSION);
 						if(in_array($ext, $allowedExtensions)) {
 							$file_size = $_FILES['uploadFile']['size'] / 1024;
-							if($file_size < 10000) {
+							if($file_size < 1000) {
 								$file = "uploads/".$_FILES['uploadFile']['name'];
 								$isUploaded = copy($_FILES['uploadFile']['tmp_name'], $file);
 								if($isUploaded) {
